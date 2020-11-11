@@ -31,3 +31,7 @@ function wpbf_child_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'wpbf_child_scripts', 13 );
+
+// Include custom functions
+
+require_once ( get_stylesheet_directory() . '/inc/users-list.php' );
