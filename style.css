@@ -8,4 +8,58 @@ License:       GNU General Public License v3 or later
 License URI:   https://www.gnu.org/licenses/gpl-3.0.html
 Template:      page-builder-framework
 Text Domain:   page-builder-framework-child
+
+Parent theme documentation: https://wp-pagebuilderframework.com/docs/
 */
+
+.gv-button-update {
+	background: green !important;
+	color: #fff !important;
+}
+.gv-button-delete {
+	background: #f00;
+	color: #fff;
+	padding: 14px 16px;
+}
+.gv-button-cancel {
+	background: #eee;
+	color: #666;
+	padding: 14px 16px;
+}
+.gravityflow-instructions {
+	background: #fbfbaf;
+	line-height: 1.5;
+}
+.gravityflow-instructions .inside {
+	margin: 0 !important;
+}
+.gravityflow-step-user_input thead,
+.detail-view-print,
+.entry-detail-view thead {
+	display: none;
+}
+#post-body.columns-2 #postbox-container-1 {
+    float: right;
+    margin-right: -280px;
+    width: 260px;
+}
+#gravityflow-status-box-container {
+	background: #d2f0ff !important;
+}
+.gravityflow_workflow_wrap .postbox-container .button {
+    border-color: #0e51ec;
+    color: #fff!important;
+    vertical-align: top;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 10px 1px;
+    width: 100%;
+    background: #2f8cff;
+}
